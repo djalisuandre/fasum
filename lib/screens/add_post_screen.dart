@@ -78,7 +78,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
       const apiKey =
           'AIzaSyA7HxTArNKnIe1OJA_BMaTzcUKmmeudnPE'; // ganti dengan API key kamu
       const url =
-          'https://generativelanguage.googleapis.com/v1/models/gemini2.0-flash:generateContent?key=$apiKey';
+          'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=$apiKey';
       final body = jsonEncode({
         "contents": [
           {
